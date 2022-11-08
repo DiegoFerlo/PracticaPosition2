@@ -1,0 +1,259 @@
+/* 
+colors: 
+  body background: #2a2b37
+  card background: #252a41
+  green: #1db489
+  red: #dc414c
+  facebook-color: #198ff5
+  twitter-color: #1ca0f2
+  instagram-color: #fdc468
+  youtube-color: #c4032a
+*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1e202a;
+  min-height: 100%;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+
+  display: block;
+  max-width: 100%;
+}
+
+.exercise {
+  position: relative;
+
+}
+
+
+.top-box {
+
+  position: absolute;
+  left: 15px;
+  top: 0px;
+  background-color: #222238;
+  width: 1100px;
+  height: 200px;
+  border-radius: 8px;
+  color: white;
+}
+
+.title {
+
+  position: absolute;
+  top: 30px;
+  left: 130px;
+  font-size: 32px;
+
+}
+
+.adicional-title {
+
+  position: absolute;
+  top: 100px;
+  left: 130px;
+  font-size: 15px;
+
+}
+
+.card {
+
+
+  background-color: #252a41;
+  width: 200px;
+  height: 200px;
+  top: 170px;
+  border-radius: 7px;
+  color: white;
+}
+
+.name {
+
+  position: absolute;
+  font-size: 12px;
+  top: 14px;
+  left: 80px;
+
+}
+
+.number {
+
+  position: absolute;
+  top: 10px;
+  font-size: 50px;
+  left: 40px;
+
+}
+
+.follow {
+
+  position: absolute;
+  top: 110px;
+  font-size: 16px;
+  color: white;
+  left: 50px;
+
+}
+
+.days {
+
+  position: absolute;
+  top: 150px;
+  font-size: 13px;
+  left: 80px;
+}
+
+.image {
+
+  position: absolute;
+  top: 22px;
+  left: 50px;
+}
+
+.arrow {
+
+  position: absolute;
+  top: 170px;
+  left: 65px;
+}
+
+.card-face {
+  position: absolute;
+  left: 140px;
+  border-top: 3px solid #198ff5;
+}
+
+.days-face {
+  color: #1db489;
+}
+
+.card-twitter {
+  position: absolute;
+  left: 365px;
+  border-top: 3px solid #1ca0f2;
+}
+
+.days-twitter {
+
+  color: #1db489;
+}
+
+.card-insta {
+  position: absolute;
+  left: 590px;
+  border-top: 3px solid #fdc468;
+}
+
+.days-twitter {
+
+  color: #1db489;
+}
+
+.number-insta {
+
+  left: 50px;
+}
+
+.card-youtube {
+  position: absolute;
+  left: 815px;
+  border-top: 3px solid #c4032a;
+}
+
+.days-youtube {
+
+  color: #dc414c;
+}
+
+.sub-title {
+  position: absolute;
+  color: white;
+  top: 380px;
+  left: 140px;
+  font-size: 20px;
+}
+
+.subcard {
+
+  position: absolute;
+  background-color: #252a41;
+  width: 200px;
+  height: 100px;
+  top: 440px;
+  border-radius: 7px;
+  color: white;
+}
+
+.name-subcard {
+
+  position: absolute;
+  left: 20px;
+  font-size: 15px;
+}
+
+.number-subcard {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  font-size: 35px;
+}
+
+.subcard-face {
+  left: 140px;
+}
+
+.days-subcard {
+
+  position: absolute;
+  top: 60px;
+  left: 160px;
+  font-size: 13px;
+}
+
+.subimage {
+  position: absolute;
+  top: 10px;
+  left: 160px;
+}
+
+.subarrow {
+  position: absolute;
+  top: 80px;
+  left: 130px;
+}
+
+.subface {
+
+  color: #1db489;
+}
+
+.subcard-twitter {
+  left: 365px;
+}
+
+.subtwitter {
+  color: #1db489;
+}
+
+.subcard-insta {
+  left: 590px;
+}
+
+.subinsta {
+  color: #1db489;
+}
+
+.subcard-youtube {
+  left: 815px;
+}
+
+.subyou {
+  color: #dc414c;
+}
